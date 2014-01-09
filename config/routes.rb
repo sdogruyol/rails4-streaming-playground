@@ -5,7 +5,7 @@ LiveStreaming::Application.routes.draw do
   get 'message' => 'message#send_message'
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'main#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

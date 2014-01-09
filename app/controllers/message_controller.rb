@@ -16,7 +16,6 @@ class MessageController < ApplicationController
     ensure
       sse.close
     end
-    response.stream.close
   end
 
 end
